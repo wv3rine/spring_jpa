@@ -1,0 +1,39 @@
+###
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "login": "machbet",
+  "password": "12345"
+}
+###
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "login": "lir",
+  "password": "12345"
+}
+###
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "login": "hamlet",
+  "password": "12345"
+}
+###
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "password": "12345"
+}
+###
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "login": "hludov",
+  "password": "12345"
+}

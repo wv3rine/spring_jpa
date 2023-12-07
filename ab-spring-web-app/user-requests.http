@@ -1,0 +1,22 @@
+GET localhost:8080/users
+
+###
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "login": "King Macbeth",
+  "password": "12345"
+}
+
+###
+PUT localhost:8080/users/20
+Content-Type: application/json
+
+{
+  "login": "Roman Hludov",
+  "password": "123"
+}
+
+###
+GET http://localhost:8080/users?pageSize=2&page=2
